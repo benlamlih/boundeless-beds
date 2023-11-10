@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:h2:tcp://localhost:9092/default</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="boundless-bed@localhost" uuid="f6dcddbd-1d19-4a1d-881c-a9e01edd892a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/boundless-bed</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

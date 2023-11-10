@@ -22,6 +22,13 @@
     <orderEntry type="library" name="sbt: com.twitter:hpack:1.0.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.zaxxer:HikariCP:5.0.1:jar" level="project" />
     <orderEntry type="library" name="sbt: eu.timepit:refined_3:0.11.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-core_3:0.15.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-generic_3:0.14.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-jawn_3:0.14.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-literal_3:0.14.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-numbers_3:0.15.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-refined_3:0.15.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.http4s:http4s-circe_3:1.0.0-M40:jar" level="project" />
     <orderEntry type="library" name="sbt: org.http4s:http4s-client_3:1.0.0-M40:jar" level="project" />
     <orderEntry type="library" name="sbt: org.http4s:http4s-core_3:1.0.0-M40:jar" level="project" />
     <orderEntry type="library" name="sbt: org.http4s:http4s-crypto_3:0.2.4:jar" level="project" />
@@ -29,6 +36,7 @@
     <orderEntry type="library" name="sbt: org.http4s:http4s-ember-client_3:1.0.0-M40:jar" level="project" />
     <orderEntry type="library" name="sbt: org.http4s:http4s-ember-core_3:1.0.0-M40:jar" level="project" />
     <orderEntry type="library" name="sbt: org.http4s:http4s-ember-server_3:1.0.0-M40:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.http4s:http4s-jawn_3:1.0.0-M40:jar" level="project" />
     <orderEntry type="library" name="sbt: org.http4s:http4s-server_3:1.0.0-M40:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.10:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala3-library_3:3.3.1:jar" level="project" />
@@ -48,6 +56,8 @@
     <orderEntry type="library" name="sbt: org.typelevel:cats-free_3:2.9.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_3:2.9.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-parse_3:0.3.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:jawn-fs2_3:2.4.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:jawn-parser_3:1.5.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:keypool_3:0.4.8:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:literally_3:1.1.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:log4cats-core_3:2.6.0:jar" level="project" />

@@ -1,19 +1,14 @@
 package net.benlamlih
 package domain.account
 
-import infrastructure.DatabaseContext.ctx
-
 import cats.effect.IO
-import eu.timepit.refined.auto.*
-import io.getquill.*
 
-import scala.concurrent.Future
+trait AccountRepository {
+  def create(account: Account): IO[Unit]
+  def find(name: String): IO[Option[Account]]
+  def retrieve(id: UUID): IO[Option[Account]]
 
-class AccountRepository {
-  def getAccountNameByName(name: String) = {
-    val query1 = quote {
-      query[Account].filter(account => lazyLift(account.fullName.value) == "Simo").map(lazyLift(_.fullName.value))
-    }
-    //    ctx.run(query1)
-  }
+  def retrieveAll(): IO[List[Account]]
+  def update(account: Account): IO[Unit]
+  def delete(id: UUID): IO[Unit]
 }
